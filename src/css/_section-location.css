@@ -3,9 +3,26 @@
  *
  * Start all rules with .section-location
  */
-h1 {
-  font-family: "cursiveariel";
+ head{
+   font-size: normal;
 }
-iframe{
+
+ h1 {
+  font-family: "cursiveariel";
+  color: white;
+  font-size: normal;
+  text-decoration: underline;
+}
+h2 {
+font-family: "cursiveariel";
+  color: white;
+  font-size: normal;
+  text-decoration: underline;
+}
+iframe {
   border: solid thick black;
-    border-radius: 2em }
+    border-radius: 2em;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
