@@ -3,3 +3,9 @@
  *
  * Start all rules with .section-location
  */
+h1 {
+  font-family: "cursiveariel";
+}
+iframe{
+  border: solid thick black;
+    border-radius: 2em }
