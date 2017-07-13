@@ -7,14 +7,17 @@
    --type:#FFFFFF;
  }
  .section-about{
-background:#4C0400
+   background:#4C0400;
  }
+
  @import url('https://fonts.googleapis.com/css?family=Nunito');
+
 .project-about{
   color:var(--type);
   font-size:23px;
   font-family: "Nunito";
 }
+
 p.about{
-  color:var(--type)
+  color:var(--type);
 }
