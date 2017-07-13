@@ -3,3 +3,13 @@
  *
  * Start all rules with .section-intro
  */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+.section-intro h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  margin: auto;
+}
+.section-intro img {width: inherit%;
+  border-style:outset;
+  border-radius:1%;
+  border-color:black;}
