@@ -13,6 +13,21 @@
   border-style:outset;
   border-radius:1%;
   border-color:black;}
-.section-intro {
-  background: #F2A20A;
+ :root{
+   --type:#FFFFFF;
+ }
+ .section-about{
+   background:#4C0400;
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.project-about{
+  color:var(--type);
+  font-size:23px;
+  font-family: "Nunito", sans-serif;
+}
+
+p.about{
+  color:var(--type);
 }

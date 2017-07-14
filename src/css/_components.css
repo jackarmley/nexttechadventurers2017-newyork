@@ -1,6 +1,7 @@
 /**
  * Shared component styles
- */
+**/
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 
 .section {
   min-height: 100vh;
