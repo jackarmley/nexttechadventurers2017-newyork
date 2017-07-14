@@ -5,7 +5,18 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.section-gallery h1 {
+  color: white;
+}
+.section-gallery p {
+  color: white;
+}
+
+.section-gallery {
+  background: #591603;
+}
+
 .section-intro h1 {
 font-family: Droid+Sans, sans-serif;
 font-size: 50px;
@@ -13,9 +24,10 @@ margin: auto;
 }
 .section-intro p {
   font-family: Poppins, sans-serif;
-  font-size: 45px:
+  font-size: 75px:
   margin: auto;
 }
+
 .newyork_gallery {
   list-style-type:none;
   margin: auto;
@@ -24,7 +36,7 @@ margin: auto;
   flex-wrap: wrap;
   font-size: 75%;
   color: #FCF3E4;
-  font-family: Lato, sans-serif;
+  font-family: "cursiveariel";
 }
 .newyork_gallery li {
   flex-grow: 1;
@@ -34,7 +46,7 @@ margin: auto;
   background-color: black;
 }
 .newyork_gallery li:hover {
-background-color: blue;
+background-color: #F4B905;
 filter: contrast(125%);
 transform: scale(1.5);
 }
