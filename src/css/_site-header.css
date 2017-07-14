@@ -5,3 +5,19 @@
 .site-header {
   padding: 20px;
 }
+.site-header{
+  background:#F4B905;
+}
+.site-title{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:30px;
+}
+.teamname{
+  font-size:10px;
+  color :#FAFFC9;
+}
+.site-menu{
+  color:#E80061;
+  font-size:20px;
+}
