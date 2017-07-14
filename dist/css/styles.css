@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css?family=Lato');
 /**
  * Site styles
  */
@@ -176,6 +175,18 @@ li {
  * Start all rules with .section-gallery
  */
 
+.section-gallery h1 {
+  color: white;
+}
+
+.section-gallery p {
+  color: white;
+}
+
+.section-gallery {
+  background: #591603;
+}
+
 .section-intro h1 {
   font-family: Droid+Sans, sans-serif;
   font-size: 50px;
@@ -184,7 +195,7 @@ li {
 
 .section-intro p {
   font-family: Poppins, sans-serif;
-  font-size: 45px:
+  font-size: 75px:
   margin: auto;
 }
 
@@ -196,7 +207,7 @@ li {
   flex-wrap: wrap;
   font-size: 75%;
   color: #FCF3E4;
-  font-family: Lato, sans-serif;
+  font-family: "cursiveariel";
 }
 
 .newyork_gallery li {
@@ -208,7 +219,7 @@ li {
 }
 
 .newyork_gallery li:hover {
-  background-color: blue;
+  background-color: #F4B905;
   filter: contrast(125%);
   transform: scale(1.5);
 }
