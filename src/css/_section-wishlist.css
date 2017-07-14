@@ -3,9 +3,13 @@
  *
  * Start all rules with .section-wishlist
  */
-.section-wishlist.liberty {
-  color:blue;
+.section-wishlist{
+  background:#C25D05
 }
-.section-wishlist.liberty {
-  font-size:large;
+li{
+  color:#FFFFFF;
+}
+.pinapple {
+  color:#FFFFFF;
+  text-decoration: underline
 }
