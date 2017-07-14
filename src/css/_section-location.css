@@ -3,26 +3,39 @@
  *
  * Start all rules with .section-location
  */
- head{
-   font-size: normal;
+
+.pear {
+color:#FFFFFF;
+}
+.banana{
+  color:#FFFFFF;
 }
 
- h1 {
+ .apple {
   font-family: "cursiveariel";
-  color: white;
-  font-size: normal;
+  color: #FFFFFF;
+  font-size: 100%;
   text-decoration: underline;
 }
-h2 {
+h3 {
 font-family: "cursiveariel";
-  color: white;
-  font-size: normal;
+  color: #FFFFFF;
+  font-size: 100%;
   text-decoration: underline;
 }
 iframe {
-  border: solid thick black;
+  border: solid thick #000000;
     border-radius: 2em;
     width: 100%;
     height: auto;
     min-height: 500px;
+}
+.section-location{
+  background:#591603
+}
+.pear{
+  color: white:
+}
+p{
+  color:#FFFFFF
 }
