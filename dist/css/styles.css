@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/**
+ * Site styles
+ */
+
+/**
+ * Reset styles
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+/**
+ * Typography
+ */
+
+body {
+  font: normal 100%/1.8 sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5em 0 1em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: currentColor;
+}
+
+ul,
+ol {
+  margin: 0 0 1em 2em;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+/**
+ * Shared component styles
+**/
+
+.section {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.section-heading {
+  margin: 0 0 20px;
+}
+
+/**
+ * Site header
+ */
+
+.site-header {
+  padding: 20px;
+}
+
+.site-header {
+  background: #F4B905;
+}
+
+.site-title {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  margin: 1em;
+}
+
+.teamname {
+  font-size: 10px;
+  color: #FAFFC9;
+}
+
+.site-menu {
+  color: #E80061;
+  font-size: 20px;
+}
+
+/**
+ * Site footer
+ */
+
+.site-footer {
+  padding: 20px;
+  background: #260400;
+}
+
+span {
+  color: white;
+}
+
+/**
+ * Intro section styles
+ *
+ * Start all rules with .section-intro
+ */
+
+.section-intro h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  margin: auto;
+}
+
+.section-intro img {
+  width: inherit%;
+  border-style: outset;
+  border-radius: 1%;
+  border-color: black;
+}
+
+:root {
+  --type: #FFFFFF;
+}
+
+.section-about {
+  background: #4C0400;
+}
+
+.project-about {
+  color: var(--type);
+  font-size: 23px;
+  font-family: "Nunito", sans-serif;
+}
+
+p.about {
+  color: var(--type);
+}
+
+/**
+ * Wishlist section styles
+ *
+ * Start all rules with .section-wishlist
+ */
+
+.section-wishlist {
+  background: #C25D05;
+}
+
+li {
+  color: #FFFFFF;
+}
+
+.pinapple {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/**
+ * Gallery section styles
+ *
+ * Start all rules with .section-gallery
+ */
+
+.section-intro h1 {
+  font-family: Droid+Sans, sans-serif;
+  font-size: 50px;
+  margin: auto;
+}
+
+.section-intro p {
+  font-family: Poppins, sans-serif;
+  font-size: 45px:
+  margin: auto;
+}
+
+.newyork_gallery {
+  list-style-type: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 75%;
+  color: #FCF3E4;
+  font-family: Lato, sans-serif;
+}
+
+.newyork_gallery li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 150px;
+  margin: 5px;
+  background-color: black;
+}
+
+.newyork_gallery li:hover {
+  background-color: blue;
+  filter: contrast(125%);
+  transform: scale(1.5);
+}
+
+.newyork_gallery figcaption {
+  padding: 10px;
+}
+
+/**
+ * Location section styles
+ *
+ * Start all rules with .section-location
+ */
+
+.pear {
+  color: #FFFFFF;
+}
+
+.banana {
+  color: #FFFFFF;
+}
+
+.apple {
+  font-family: "cursiveariel";
+  color: #FFFFFF;
+  font-size: 100%;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "cursiveariel";
+  color: #FFFFFF;
+  font-size: 100%;
+  text-decoration: underline;
+}
+
+iframe {
+  border: solid thick #000000;
+  border-radius: 2em;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+
+.section-location {
+  background: #591603;
+}
+
+.pear {
+  color: white:;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+/**
+ * About section styles
+ *
+ * Start all rules with .section-about
+ */
