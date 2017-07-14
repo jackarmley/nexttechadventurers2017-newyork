@@ -1,5 +1,11 @@
-/**
+  /**
  * Wishlist section styles
  *
  * Start all rules with .section-wishlist
  */
+.section-wishlist.liberty {
+  color:blue;
+}
+.section-wishlist.liberty {
+  font-size:large;
+}
