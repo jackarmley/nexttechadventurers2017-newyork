@@ -15,7 +15,7 @@
 .project-about{
   color:var(--type);
   font-size:23px;
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
 }
 
 p.about{
