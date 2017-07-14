@@ -119,6 +119,10 @@ span {
  * Start all rules with .section-intro
  */
 
+.section-intro {
+  background: #F2A20A;
+}
+
 .section-intro h1 {
   font-family: Oswald, sans-serif;
   font-size: 50px;
